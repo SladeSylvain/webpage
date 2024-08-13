@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+
+
+.header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 15%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.2s;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo:hover{
+    transform: scale(1.04);
+}
+
+.header .nav-list{
+    list-style: none;
+
+}
+
+.header .nav-list li:hover{
+    transform: scale(1.4)
+}
+
+.header .nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-list a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .btn button{
+    font-weight: 50px;
+    border-radius: 50px;
+    color: black;
+    background-color: #fffff4;
+    padding: 2px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn button:hover{
+    transform: scale(1.2);
+}
+
+
+.header .nav-list li a:hover{
+    color: slategray;
+}
+
+section{
+    padding: 0;
+    
+}
+
+.imagenCarrousel img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    background-color: green;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.cajaRight{
+    background-color: aqua;
+    display:grid;
+    justify-content: center;
+    width: 300px;
+    margin-top:100px;
+    margin-left: 40px;
+    padding-top: 50px;
+
+}
+.cajaMid{
+    background-color: red;
+    height: 500px;
+    width: 1200px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+
+
+}
+
+
+
+
+
+.cajaRight li{
+    list-style-type: none;
+
+}
+
+.cajaRight li a{
+    text-decoration: none;
+}
+
+.boxes1{
+    background-color: blue;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes1 img{
+    width: 200px;
+    margin: 20px;
+}
+
+.boxes2{
+    background-color: gray;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes2 img{
+    width: 200px;
+    margin: 20px;
+}
+.boxes3{
+    background-color:aqua;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes3 img{
+    width: 200px;
+    margin: 20px;
+}
+.boxes4{
+    background-color:burlywood;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes4 img{
+    width: 200px;
+    margin: 20px;
+}
+.boxes5{
+    background-color:coral;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes5 img{
+    width: 200px;
+    margin: 20px;
+}
+.boxes6{
+    background-color:darkslateblue;
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+.boxes6 img{
+    width: 200px;
+    margin: 20px;
+}
+
+
+.boxes1, .boxes2, .boxes3, .boxes4, .boxes5, .boxes6 {
+    width: 300px;   
+    height: 300px;
+    margin: 10px;
+    margin-top: 40px;
+
+    
+
+}
