@@ -1,14 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    background-color: whitesmoke;
+    .kanit-thin {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .kanit-extralight {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .kanit-light {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .kanit-regular {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .kanit-medium {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .kanit-semibold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .kanit-bold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .kanit-black {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .kanit-thin-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .kanit-extralight-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .kanit-light-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .kanit-regular-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .kanit-medium-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .kanit-semibold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .kanit-bold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .kanit-extrabold-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .kanit-black-italic {
+        font-family: "Kanit", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+         
 }
 
 
@@ -20,6 +120,8 @@
     align-items: center;
     height: 80px;
     padding: 10px 15%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
 }
 
 .header .logo img{
@@ -51,17 +153,17 @@
 }
 
 .header .nav-list a{
-    font-size: 700;
+    font-size: 100;
     color: black;
     text-decoration: none;
 }
 
 .header .btn button{
-    font-weight: 50px;
-    border-radius: 50px;
+    font-weight: 100px;
+    border-radius: 100px;
     color: black;
     background-color: #fffff4;
-    padding: 2px 15px;
+    padding: 5px 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 
@@ -85,45 +187,53 @@ section{
     width: 100%;
     height: auto;
     display: block;
+    
 }
 
 .container{
-    background-color: green;
+    background-color: whitesmoke;
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
+    
 
 }
 .cajaRight{
-    background-color: aqua;
     display:grid;
     justify-content: center;
-    width: 300px;
-    margin-top:100px;
+    width: 200px;
+    margin-top: 100px;
     margin-left: 40px;
-    padding-top: 50px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 300px 0px 300px;
+
+    
 
 }
+
+
+
 .cajaMid{
-    background-color: red;
-    height: 500px;
+    height: 1400px;
     width: 1200px;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-    
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 200px 200px 0px;
 
 
+    
 }
-
-
-
-
 
 .cajaRight li{
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -132,12 +242,13 @@ section{
 }
 
 .boxes1{
-    background-color: blue;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 .boxes1 img{
     width: 200px;
@@ -145,73 +256,201 @@ section{
 }
 
 .boxes2{
-    background-color: gray;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 .boxes2 img{
     width: 200px;
     margin: 20px;
 }
 .boxes3{
-    background-color:aqua;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 .boxes3 img{
     width: 200px;
     margin: 20px;
 }
 .boxes4{
-    background-color:burlywood;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 .boxes4 img{
     width: 200px;
     margin: 20px;
 }
 .boxes5{
-    background-color:coral;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 .boxes5 img{
     width: 200px;
     margin: 20px;
 }
 .boxes6{
-    background-color:darkslateblue;
     display:grid;
     justify-content: center;
     width: 50px;
     height: 50px;
-    margin: 10px
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
+
 }
 .boxes6 img{
     width: 200px;
     margin: 20px;
 }
 
+.boxes7{
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
 
-.boxes1, .boxes2, .boxes3, .boxes4, .boxes5, .boxes6 {
-    width: 300px;   
-    height: 300px;
+
+}
+.boxes7 img{
+    width: 200px;
+    margin: 20px;
+}
+
+.boxes8{
+    display:grid;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px 40px 10px 40px;
+
+
+}
+.boxes8 img{
+    width: 200px;
+    margin: 20px;
+}
+
+
+.boxes1, .boxes2, .boxes3, .boxes4, .boxes5, .boxes6 , .boxes7 , .boxes8 ,.boxes9,.boxes10,.boxes11 ,.boxes12{
+    width: 250px;   
+    height: 350px;
     margin: 10px;
     margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.boxes1 h5, .boxes1 p,.boxes2 h5, .boxes2 p,.boxes3 h5, .boxes3 p,.boxes4 h5, .boxes4 p,
+.boxes5 h5, .boxes5 p,.boxes6 h5, .boxes6 p,.boxes7 h5, .boxes7 p,.boxes8 h5, .boxes8 p,
+.boxes9 h5, .boxes9 p,.boxes10 h5, .boxes10 p,.boxes11 h5, .boxes11 p,.boxes12 h5, .boxes12 p 
+{    font-size:15px;
+    margin-bottom: -5px;
+    margin-top: -50px;
+}
+.boxes1:hover, .boxes2:hover, .boxes3:hover, .boxes4:hover, .boxes5:hover, .boxes6:hover,
+.boxes7:hover, .boxes8:hover, .boxes9:hover, .boxes10:hover, .boxes11:hover, .boxes12:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    cursor: pointer;
+}
+
+.boxes1 img, .boxes2 img, .boxes3 img, .boxes4 img, .boxes5 img, .boxes6 img,
+.boxes7 img, .boxes8 img, .boxes9 img, .boxes10 img, .boxes11 img, .boxes12 img {
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.mainbox h3{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.mainbox h3 strong{
+    background-color: #000000;
+    ;
+    width: 1200px;
+    height: 50px;
+    border-radius: 6px;
+    width: 97%;
+    margin: 20px;
+    border: 2px solid lightgray
+
+}
+
+
+.footer div{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 400px 0px 400px;
+
+
 
     
+}
+footer div ul li a,footer div ul li{
+    list-style-type: none;
+    text-decoration: none;
+    color:black
+    
+}
+
+
+.footer .footer-izq {
+    width: 33%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+    
+    
+
+}
+
+.footer .footer-cent{
+    width: 33.3%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+
+}
+.footer .footer-der{
+    width: 33%;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
 
 }
