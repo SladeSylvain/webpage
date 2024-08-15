@@ -195,9 +195,25 @@ section{
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
-    
-
 }
+
+.searcher{
+    display: flex;
+    justify-content: center;
+}
+.search-input{
+    border-radius: 100px;
+    width: 200px;
+    height: 23px;
+}
+.search-button{
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
 .cajaRight{
     display:grid;
     justify-content: center;
@@ -205,15 +221,53 @@ section{
     margin-top: 100px;
     margin-left: 40px;
     padding-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 300px 0px 300px;
-
-    
+    border-top-left-radius: 5px;    /* Esquina superior izquierda */
+    border-bottom-left-radius: 5px; /* Esquina inferior izquierda */
 
 }
 
+#consulta{
+    min-width: 400px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 200px;
+}
 
+
+
+.article1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 80vh;           /* Usa toda la altura de la ventana */
+    width: 100%;             /* Usa todo el ancho disponible */
+}
+
+.article {
+    width: 450px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.article input{
+    border-radius: 10px;
+}
+
+#name, #lastname{
+    font-size: small;
+}
+
+.article label{
+    font-size: 15px;
+}
+
+.phone{
+    
+}
 
 .cajaMid{
     height: 1400px;
@@ -222,18 +276,23 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-radius: 5px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 200px 200px 0px;
 
 
-    
+}
+
+.cajaMid a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+
 }
 
 .cajaRight li{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    
 
 }
 
@@ -361,6 +420,7 @@ section{
     text-align: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
+
 }
 
 .boxes1 h5, .boxes1 p,.boxes2 h5, .boxes2 p,.boxes3 h5, .boxes3 p,.boxes4 h5, .boxes4 p,
@@ -380,7 +440,7 @@ section{
 .boxes1 img, .boxes2 img, .boxes3 img, .boxes4 img, .boxes5 img, .boxes6 img,
 .boxes7 img, .boxes8 img, .boxes9 img, .boxes10 img, .boxes11 img, .boxes12 img {
     width: 200px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 444px rgb(255, 255, 255);
 
 }
 
@@ -422,12 +482,19 @@ section{
 
     
 }
-footer div ul li a,footer div ul li{
+footer div ul li a,footer div ul li,footer div h3{
     list-style-type: none;
     text-decoration: none;
-    color:black
+    color:black;
+    font-size:16px;
+    margin-top: 5px;
     
 }
+
+footer div ul li a:hover,footer div ul li:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    cursor: pointer;}
 
 
 .footer .footer-izq {
